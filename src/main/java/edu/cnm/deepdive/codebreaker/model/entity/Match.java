@@ -26,7 +26,7 @@ import org.springframework.lang.NonNull;
 @SuppressWarnings("JpaDataSourceORMInspection")
 @Entity
 @Table(
-    name = "",
+    name = "tournament",
     indexes = {
         @Index(columnList = "codeLength"),
         @Index(columnList = "gameCount"),
